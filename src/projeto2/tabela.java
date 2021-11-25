@@ -19,7 +19,7 @@ public class tabela {
 		List<times> timesm = new ArrayList<>();
 		for (int i = 0; i < timesn.length; i++) {
 			timesn[i] = new times();
-			System.out.printf("%s%d%s", "DIgite o nome do time: ", i + 1, ": ");
+			System.out.printf("%s%d%s", "Digite o nome do time: ", i + 1, ": ");
 			String nome = sc.next();
 			timesn[i].setNome(nome);
 			timesm.add(timesn[i]);
